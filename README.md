@@ -14,6 +14,9 @@ http://metaduck.com/01-asynchronous-iteration-patterns.html
 http://tobyho.com/2011/11/02/callbacks-in-loops/
 http://book.mixu.net/node/ch7.html
 https://nodejs.org/api/fs.html#fs_fs_close_fd_callback
+https://www.promisejs.org/
+https://strongloop.com/strongblog/promises-in-node-js-with-q-an-alternative-to-callbacks/
+http://www.sebastianseilund.com/nodejs-async-in-practice
 
 Also, since I am completely new to node, 
 The code i've written might not be very efficient and i'm sure there must be better ways of doing the 
