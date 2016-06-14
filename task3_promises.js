@@ -45,4 +45,10 @@ app.get('/I/want/title', function(req, res) {
 	var allPromise = q.all([getTitle('http://youtube.com'), getTitle('http://facebook.com')])
 	allPromise.then(returnResponse);
 });
+//return 404 not found for all other urls
+app.get('*', function(req, res) {
+    res.status(404);
+    res.send('<h1>Oops, Page Not Found</h1>');
+})
+
 app.listen(8081);
